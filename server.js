@@ -11,7 +11,7 @@ class payload {
 
 let z = new payload('', '');
 
-const port2 = 4000;
+const port2 = 443;
 const server2 = express().listen(port2, () => console.log(`Listening for requests on port ${port2}`));
 
 const io = socket(server2);
